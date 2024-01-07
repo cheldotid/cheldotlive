@@ -42,19 +42,19 @@
 			max-width: 500px;
 			height: 100vh;
 			margin: 0 auto;
-			background-image: url("https://media.discordapp.net/attachments/1185370285956923454/1193459630412681257/wp7077928.jpg"); 
-			background-size: cover;
+			display: flex;
+			justify-content: center;
 		}
 
-		.che-profile {
+		.content {
 			margin: 0 auto;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
-		}
+		  }
 
-		.che-profile img {
+		.content img {
 			margin-top: 25px;
 			width: 150px;
 			height: 150px;
@@ -62,7 +62,7 @@
 			border-radius: 100%;
 		}
 
-		.che-profile h1 {
+		.content h1 {
 			margin-top: 10px;
 			font-size: xx-large;
 			text-align: center;
@@ -71,7 +71,7 @@
 			font-family: "Roboto", sans-serif;
 		}
 
-		.che-profile p {
+		.content p {
 			font-size: large;
 			text-align: center;
 			color: rgb(255, 255, 255);
@@ -79,41 +79,15 @@
 			font-family: "Roboto", sans-serif;
 		}
 
-		.che-link {
-			margin: 0 auto;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-		}
 
-		.che-link a {
+		.content a {
 			margin-top: 10px;
 			width: 100%;
 			text-align: center;
 			text-decoration: none;
 			font-size: large;
 			font-weight: 300;
-			padding: 10px;
 			font-family: "Roboto", sans-serif;
-		}
-
-		.che-donate {
-			margin: 0 auto;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-		}
-
-		.che-donate .card {
-			border-bottom: 3px rgb(161, 37, 104) solid;
-			border-right: 3px rgb(161, 37, 104) solid;
-		}
-
-		.btn-donate {
-			color: rgb(0, 0, 0);
-			background-color: rgb(255, 194, 60);
 		}
 
 		.btn-che {
@@ -135,14 +109,13 @@
   </head>
 
   <body>
-    <div class="container">
-        <div class="che-profile animate__animated animate__bounceInDown  animate__faster" style="text-shadow: 2px 2px #000000">
+    <div class="container" style=" background-image: url('https://wallpapercave.com/wp/wp5106365.jpg'); background-size: cover; ">
+        <div class="content animate__animated animate__bounceInDown  animate__faster">
 			<img class="animate__animated animate__pulse animate__infinite" src="https://media.discordapp.net/attachments/1185370285956923454/1193457840464072724/chel500x500.jpg" alt="Chel"/>
 			<h1><a>Chel</a> </h1>
 			<p>Kamu gabut? sama aku juga kok!</p>
-		</div>
-		<div class="che-link">
-			<a class="{{ animate__animated animate__bounce animate__faster btn btn-che rounded-0" href="https://discord.gg/XMnfVwt6" target="_blank">
+
+			<a class="animate__animated animate__bounce animate__fast btn btn-che rounded-0" href="https://discord.gg/XMnfVwt6" target="_blank">
 				<span class="fa-brands fa-discord"></span> Join Bunker Eve
 			</a>
 		</div>
